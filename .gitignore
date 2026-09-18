@@ -1,0 +1,11 @@
+# Raw sequencing data - re-download via scripts/download_data.sh (see README)
+data/raw_reads/
+
+# Intermediate pipeline outputs - regenerate by running scripts/run_pipeline.sh
+results/aligned/
+results/sorted/*.bam
+results/sorted/*.bam.bai
+results/marked_duplicates/*.bam
+results/marked_duplicates/*.bai
+results/germline/*.g.vcf.gz
+results/germline/*.g.vcf.gz.tbi
